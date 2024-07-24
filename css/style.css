@@ -5,38 +5,99 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
+/* colors {
+  #221F20
+  #DA592F
+  #561B1A
+  #9A9576
+  #D8D3A8
+} */
+
 body {
-
+  background-color: #561b1a;
+  color: #d8d3a8;
+  overflow: hidden;
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+/* header and nav styling */
+
 header {
+  display: flex;
+  width: 80%;
+  border: 2px solid #9a9576;
+  border-radius: 20px;
+  justify-content: space-between;
+  margin: 10px auto;
+}
 
+nav ul {
+  display: flex;
+}
 
+li {
+  list-style-type: none;
+  padding: 20px;
+  color: #9a9579;
+  font-size: 1.3em;
+}
+
+/* main section styling */
+
+main {
+  display: flex;
+  width: 82%;
+  margin: auto;
+}
+
+#intro {
+  width: 45%;
+}
+
+#heroImage {
+  width: 35%;
+}
+
+#heroImage img {
+  width: 20rem;
+}
+
+#restInfo {
+  width: 20%;
+}
+
+/* features styling */
+
+#features {
+  background-color: #da592f;
+  height: 40vh;
+  display: flex;
+}
+
+#features h2,
+#features section {
+  margin-top: 0;
 }
 
 footer {
-
-  
 }
 /******************************************
 /* ADDITIONAL STYLES
