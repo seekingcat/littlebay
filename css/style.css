@@ -49,6 +49,10 @@ header {
   margin: 10px auto;
 }
 
+header img {
+  border-radius: 20px;
+}
+
 nav ul {
   display: flex;
 }
@@ -66,10 +70,30 @@ main {
   display: flex;
   width: 82%;
   margin: auto;
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 4rem;
+  width: 75%;
 }
 
 #intro {
   width: 45%;
+}
+
+#intro p {
+  width: 75%;
+  padding-bottom: 2rem;
+}
+
+#intro a {
+  padding: 10px;
+  background-color: #da592f;
+  border:#561b1a 1px solid;
+  color: #561b1a;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
 #heroImage {
@@ -85,11 +109,17 @@ main {
 }
 
 /* features styling */
+#divider {
+  width: 120%;
+  margin: auto;
+}
 
 #features {
   background-color: #da592f;
-  height: 40vh;
+  height: 500px;
   display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 #features h2,
@@ -97,8 +127,31 @@ main {
   margin-top: 0;
 }
 
-footer {
+#features h2 {
+  font-size: 2rem;
 }
+
+#features p {
+  width: 75%;
+}
+#features section {
+  padding: 20px;
+}
+
+.holder {
+  width: 80%;
+  display: flex;
+  padding: 10px 35px;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.featureImg {
+  border-radius: 40px;
+}
+
+/* footer {
+} */
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
